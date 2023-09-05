@@ -9,6 +9,7 @@ func TestLogging(t *testing.T) {
 	Warn("This is a warn. I should be Yellow")
 	Fatal("AAAA !PANIC IM RED")
 	Debug("I should not show up. If I do something FUCKED has happened.")
+	DebugRaw(" - I should also not show up.")
 }
 
 func TestDebug(t *testing.T) {
