@@ -1,4 +1,4 @@
-package github.com/whamer100/go_logma
+package logma
 
 import "testing"
 
